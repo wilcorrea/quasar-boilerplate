@@ -25,6 +25,10 @@
       },
       change: {
         type: Function
+      },
+      content: {
+        type: String,
+        default: () => 'app-form'
       }
     }
   }

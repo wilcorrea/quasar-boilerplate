@@ -43,6 +43,10 @@
         type: Number,
         default: () => (25)
       },
+      content: {
+        type: String,
+        default: () => 'app-data-table'
+      },
       styles: {
         type: Object,
         default: () => ({
